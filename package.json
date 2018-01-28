@@ -1,0 +1,29 @@
+{
+    "name": "wikistack2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vsmith214/wikistack2.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vsmith214/wikistack2/issues"
+    },
+    "homepage": "https://github.com/vsmith214/wikistack2#readme",
+    "devDependencies": {
+        "body-parser": "^1.18.2",
+        "morgan": "^1.9.0",
+        "nodemon": "^1.14.11"
+    },
+    "dependencies": {
+        "express": "^4.16.2",
+        "pg": "^7.4.1",
+        "sequelize": "^4.32.2"
+    }
+}
